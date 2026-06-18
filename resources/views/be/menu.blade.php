@@ -11,7 +11,7 @@
 <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3" id="sidenav-main">
     <div class="sidenav-header">
         <i class="fas fa-times p-3 cursor-pointer text-secondary opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
-        <a class="navbar-brand m-0 d-flex align-items-center" href="{{ route('dashboard.index') }}">
+        <a class="navbar-brand m-0 d-flex align-items-center" href="{{ route('location.index') }}">
             <img src="{{ asset('assets/img/parkir.png') }}" class="navbar-brand-img h-100" alt="Parkiran logo">
             <span class="ms-2 font-weight-bold">PARKIRAN</span>
         </a>
